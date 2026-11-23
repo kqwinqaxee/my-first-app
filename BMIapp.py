@@ -4,7 +4,7 @@ st.markdown("#:RAD (แอปพลิเคชั่นคำนวณค่า
 st.write("กรอกข้อมูลน้ำหนักและส่วนสูงของคุณ")
  
 wight = st.number_input("กรอกน้ำหนักของคุณ (kg) ):", min_value=1.0, value=1.0)
-hight_cm = st.mumber_input("กรอกส่วนสูงของคุณ (cm):", min_value=1.0 , value=1.0)
+height_cm = st.mumber_input("กรอกส่วนสูงของคุณ (cm):", min_value=1.0 , value=1.0)
 
 if st.button("คำนวณค่าbmi"):
   
