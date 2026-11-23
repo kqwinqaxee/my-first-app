@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.markdown("#:RAD ("แอปพลิเคชั่นคำนวณค่า BMI⚖️ ")")
+st.markdown("#:RAD (แอปพลิเคชั่นคำนวณค่า BMI⚖️)")
 st.write("กรอกข้อมูลน้ำหนักและส่วนสูงของคุณ")
  
 wight = st.number_input("กรอกน้ำหนักของคุณ (kg) )":, min_value=1.0, value=1.0)
