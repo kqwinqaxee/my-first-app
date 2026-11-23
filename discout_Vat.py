@@ -1,5 +1,5 @@
 import streamlit as st
-st.title("แอปพลิเคชันคำนวณส่วนลดสินค้าและ 
+st.title("แอปพลิเคชันคำนวณส่วนลดสินค้าและรวมVat 7%")
 
 price = st.number_input("กรอกราคาเต็มของสินค้า (บาท):", min_value=0.0, value=0.0)
 sale = st.number_input(
