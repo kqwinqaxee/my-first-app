@@ -3,8 +3,7 @@ st.title("แอปพลิเคชันคำนวณส่วนลดส�
 
 price = st.number_input("กรอกราคาเต็มของสินค้า (บาท):", min_value=0.0, value=0.0)
 sale = st.number_input(
-    "กรอกเปอร์เซ็นต์ส่วนลด (%):", min_value=0.0, max_value=100.0, value=0.0
-)
+    "กรอกเปอร์เซ็นต์ส่วนลด (%):", min_value=0.0, max_value=100.0, value=0.0)
 
 discount = price * sale / 100
 vat = (price - discount) * 0.07
